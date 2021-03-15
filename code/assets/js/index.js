@@ -45,7 +45,7 @@ function getUserInfo() {
 
 function renderAvatar(user) {
     // 1 渲染名称 （nickname优先，如果没有，就用username）
-
+    //console.log(user);
     let name = user.nickname || user.username;
 
     $('#welcome').html('欢迎&nbsp&nbsp' + name);
